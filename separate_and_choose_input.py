@@ -3,7 +3,7 @@ import jieba
 import numpy.random as random
 import json
 
-with open("response_dict.json") as f:
+with open("Response_dict.json") as f:
     response_dict = json.load(f)
 
 no_sence_words = []
@@ -13,11 +13,11 @@ with open("all_sentences/no_sence_word_list.txt") as f:
         no_sence_words.append(word.strip())
 
 
-class SeparateAndChooseInput:
+class separateAndChooseInput(object):
     def __init__(self):
         pass
 
-    def pickMeaningfulWord(self, input):
+    def pickMeaningfulWord(input):
         """
         separate input words, delete words with length less than 2, and randomly choose one of the left words
         """
