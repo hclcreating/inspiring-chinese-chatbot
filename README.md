@@ -4,4 +4,4 @@
 jieba
 
 ## Line Demo
-<img src="https://github.com/hclcreating/inspiring-chinese-chatbot/blob/main/images/Demo1.png?raw=true" width="442" height="360">
+<img src="https://github.com/hclcreating/inspiring-chinese-chatbot/blob/main/images/Demo1.png?raw=true" width="664" height="540">
